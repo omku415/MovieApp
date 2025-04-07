@@ -1,0 +1,148 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/register2"> <!-- Moved background here -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <!-- Name Field -->
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#B3B3B3"
+            android:autofillHints="name" />
+
+        <!-- Username Field -->
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:hint="@string/Username1"
+            android:inputType="text"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#B3B3B3"
+            android:autofillHints="username" />
+
+        <!-- Phone Field -->
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#B3B3B3"
+            android:autofillHints="phone" />
+
+        <!-- Date of Birth Field -->
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:hint="@string/date_of_birth"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:textColorHint="#B3B3B3"
+            android:autofillHints="birthDate"
+            android:layout_marginBottom="16dp"/>
+
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:hint="@string/password1"
+            android:inputType="textPassword"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="#B3B3B3"
+            android:autofillHints="password" />
+
+        <!-- Movie Preferences Checkboxes -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/movie_preferences_label"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <CheckBox
+                android:id="@+id/checkbox_action"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/action"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_comedy"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/comedy"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_drama"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/drama"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_horror"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/horror"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:layout_marginBottom="8dp" />
+
+            <CheckBox
+                android:id="@+id/checkbox_romance"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="@string/romance"
+                android:textColor="@color/black"
+                android:buttonTint="@color/black"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+
+        <!-- Register Button -->
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="280dp"
+            android:layout_height="48dp"
+            android:text="@string/register"
+            android:backgroundTint="@color/text_color"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</ScrollView>

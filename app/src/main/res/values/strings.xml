@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MovieRecommendationSystem</string>
+    <string name="movie_preferences_label">Select Movie Preferences:</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="password1">Password</string>
+    <string name="comedy">Comedy</string>
+    <string name="action">Action</string>
+    <string name="drama">Drama</string>
+    <string name="horror">Horror</string>
+    <string name="romance">Romance</string>
+    <string name="register">Register</string>
+    <string name="Username1">Username</string>
+    <string name="selected_genres">Selected Genres: %s</string>
+    <string name="select_genres_title">Select Your Favorite Movie Genres</string>
+    <string name="submit">Submit</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_message">Welcome to the Movie Recommendation System!</string>
+    <string name="welcome">Welcome!</string>
+    <string name="add_to_watchlist">Add to Watchlist</string>
+    <string name="your_watchlist">Your Watchlist</string>
+    <string name="view_watchlist">View Watchlist</string>
+    <string name="more_options">More options</string>
+    <string name="give_feedback">Give Feedback</string>
+    <string name="admin_dashboard">Admin Dashboard</string>"
+    <string name="delete_users">Delete Users</string>
+    <string name="view_feedback">View Feedback</string>
+    <string name="delete_user">Delete User</string>
+
+</resources>

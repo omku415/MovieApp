@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom theme that extends Material.Light.NoActionBar -->
+    <style name="Theme.MovieRecommendationSystem" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Add your customizations here -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+</resources>
